@@ -1,0 +1,24 @@
+{
+  "name": "ninja-daylight",
+  "version": "0.0.1",
+  "description": "Daylight calculations for sun rise and set driver for Ninjablocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/pablorodiz/ninja-daylight.git",
+  "keywords": [
+    "ninjablocks",
+    "sun",
+    "sunrise",
+    "sunset",
+    "custom",
+    "sensor"
+  ],
+  "dependencies": {
+  "suncalc": "1.2.2",
+  "date-utils": "1.2.15"
+  },
+  "author": "Pablo Rodiz Obaya",
+  "license": "MIT"
+}
