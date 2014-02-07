@@ -3,7 +3,7 @@ ninja-daylight
 
 Ninjablocks driver that offers time to sunrise and time to sunset counters for your location and time
 
-The driver calculates sun rise and set time from your position, so you can use precise day or night time information in your rules. The driver behaves like a temperature sensor, giving a new value every ten minutes. The values offered reprent the time remaining (in minutes) for the next sun event. Minutes to sunset during the day and minutes remaining to sunrise (negative) during night. You can choose negative values for events at night or positive for events at day time. For precise time calculations please provide location information in decimal notation.
+The driver calculates sun rise and set time from your position, so you can use precise day or night time information in your rules. The driver behaves like a temperature sensor, giving a new value every ten minutes. The values offered reprent the time remaining (in minutes) for the next sun event. Minutes to sunset during the day and minutes remaining to sunrise (negative) during night. You can choose negative values for events at night or positive for events at day time. 
 
 Installation
 ============
