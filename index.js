@@ -9,7 +9,7 @@ util.inherits(sunDriver,stream);
 // Our greeting to the user.
 var ANNOUNCEMENT = {
   "contents": [
-    { "type": "heading",      "text": "Daylaight timer driver loaded" },
+    { "type": "heading",      "text": "Daylight timer driver loaded" },
     { "type": "paragraph",    "text": "Daylight driver has been loaded. You should not see this message again." }
   ]
 };
