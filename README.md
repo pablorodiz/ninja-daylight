@@ -8,17 +8,35 @@ The driver calculates sun rise and set time from your position, so you can use p
 Installation
 ============
 
-Cd into your drivers directory (/opt/ninja/drivers on the block or client/drivers/ on Mac
-OS X) and type: git clone git://github.com/pablorodiz/ninja-daylight.git
-After the clone finishes, cd into the ninja-daylight directory and type: sudo 
-npm install to satisfy the dependencies for this driver and then restart your block with: 
-sudo restart
-You should then see a new text input Widget appear on your Dashboard and a new "temperature like" sensor 
-for your rules will be also available. 
+* cd into your drivers directory (/opt/ninja/drivers on the block or client/drivers/ on Mac OS X) 
+
+```bash
+cd /opt/ninja/drivers
+```
+
+* And clone the repository:
+
+```bash
+git clone git://github.com/pablorodiz/ninja-daylight.git
+```
+
+* Once the clone is over, cd into the driver directory and install it: 
+
+```bash
+cd ninja-daylight
+sudo npm install
+```
+
+* Restart your block
+
+```bash
+sudo reboot
+```
+
+* Once your block has restarted, you should then see a new text input Widget appear on your Dashboard and a new "temperature like" sensor for your rules will be also available. 
 
 Dependencies
 ============
 
 Ninjablocks daylight driver extensively depends on SunCalc utilities for node.js 
 https://github.com/mourner/suncalc
-
